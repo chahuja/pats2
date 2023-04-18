@@ -12,13 +12,13 @@
   
   <title>PATS Dataset (Pose, Audio, Transcript, Style) Version 2.0 | PATS Dataset 2.0</title>
   <meta name="generator" content="Jekyll v3.9.0">
-  <meta property="og:title" content="PATS Dataset (Pose, Audio, Transcript, Style)">
+  <meta property="og:title" content="PATS Dataset (Pose, Audio, Transcript, Style) Version 2.0">
   <meta property="og:locale" content="en_US">
   <meta name="description" content="Pose-Audio-Transcript-Style Dataset">
   <meta property="og:description" content="Pose-Audio-Transcript-Style Dataset">
   <link rel="canonical" href="http://chahuja.com/pats2/">
   <meta property="og:url" content="http://chahuja.com/pats2/">
-  <meta property="og:site_name" content="PATS Dataset">
+  <meta property="og:site_name" content="PATS Dataset Version 2.0">
   <script type="application/ld+json">
     {"@type":"WebSite","url":"http://chahuja.com/pats2/","headline":"PATS Dataset (Pose, Audio, Transcript, Style) Version 2.0","description":"<strong>P</strong>ose, <strong>A</strong>udio, <strong>T</strong>ranscript, <strong>S</strong>tyle","name":"PATS Dataset 2.0","@context":"https://schema.org"}</script>
     <!-- End Jekyll SEO tag -->
@@ -31,7 +31,7 @@
       <img src="figs/pats_logo.png" width="100">
       
       
-      <h1 class="project-name">PATS Dataset </h1>
+      <h1 class="project-name">PATS Dataset 2.0</h1>
       <h2 class="project-tagline"><strong>P</strong>ose, <strong>A</strong>udio, <strong>T</strong>ranscript, <strong>S</strong>tyle</h2>
       
       <a href="http://chahuja.com/pats/download.html"class="button button2">Download</a> <a href="https://github.com/chahuja/pats" class="button button2">Dataset Scripts</a>
@@ -42,8 +42,7 @@
     <section class="main-content">
       
       <h1 id="intro">Why PATS?</h1>
-      <p>PATS was collected to study correlation of co-speech gestures with audio and text signals. The dataset consists of a <b>diverse</b> and <b>large amount</b> of aligned <b>pose, audio and transcripts</b>. 
-        With this dataset, we hope to provide a benchmark which would help develop technologies for virtual agents which generate natural and relevant gestures. </br> </p>
+      <p>PATS 2.0 is a new extended dataset for gesture and nonverbal communication modeling. It follows from <a href="http://chahuja.com/pats/">PATS 1.0</a>, but contains data for <strong>60 new speakers</strong>, with richer features such as <strong>3D pose and facial landmark information</strong>.</br> </p>
         <center> 
           <iframe width="560" height="315" src="https://www.youtube.com//embed/BQf1e-K_oek?autoplay=1&mute=1&loop=1&playlist=BQf1e-K_oek" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen float: "center"></iframe>
         </center>       
@@ -54,8 +53,8 @@
             <li>Transcribed <strong>Pose</strong> data with aligned <strong>Audio</strong> and <strong>Transcriptions</strong>
               <ul>
                 <li>Extended dataset from <a href="http://chahuja.com/pats/">PATS 1.0</a> containing new <strong>facial landmark information</strong> and <strong>3D pose information</strong>.</li>
-                <li>60 Speakers with different <strong>Styles</strong></li>
-                <li>Add speaker demographics </li>
+                <li>60 new speakers with different <strong>styles</strong></li>
+                <li>Added speaker demographics </li>
               </ul>
             </li>
             <li>60 hours of data 
@@ -146,8 +145,16 @@
                   </tr>
                   
                   <tr>
-                    <td style="text-align: left">Pose</td>
+                    <td rowspan = "3">Transcripts</td>
                     <td style="text-align: left">2D Skeletal Keypoints</td>
+                    <td style="text-align: left">Processed using <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a></td>
+                  </tr>
+                  <tr>
+                    <td>3D pose information</td>
+                    <td style="text-align: left">Processed using <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a></td>
+                  </tr>
+                  <tr>
+                    <td>Facial Landmark information</td>
                     <td style="text-align: left">Processed using <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a></td>
                   </tr>
                 </tbody>
