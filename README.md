@@ -4,7 +4,7 @@ PATS was collected to study correlation of co-speech gestures with audio and tex
 For a complete overview check the following [link](http://chahuja.com/pats). 
 
 <center>
-<img src="https://user-images.githubusercontent.com/43928520/90454983-c022ba00-e0c2-11ea-991e-36bd5cb3b38b.png" width="500px">
+<img src="https://user-images.githubusercontent.com/19923446/235376035-22750cb6-8080-4f55-966e-ceee2f244c64.png" width="500px">
 </center>
 
 ## License
