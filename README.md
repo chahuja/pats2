@@ -1,7 +1,7 @@
 
 # PATS2.0 Dataset
 PATS was collected to study correlation of co-speech gestures with audio and text signals. In this repository we present an extended new version of this dataset. The dataset consists of a diverse and large amount of aligned pose, audio and transcripts, along with new 3D pose and facial landmark information. With this dataset, we hope to provide a benchmark which would help develop technologies for virtual agents which generate natural and relevant gestures.
-For a complete overview check the following [link](http://chahuja.com/pats). 
+For a complete overview check the following [link](http://chahuja.com/pats2). 
 
 <center>
 <img src="https://user-images.githubusercontent.com/19923446/235376035-22750cb6-8080-4f55-966e-ceee2f244c64.png" width="1000px">
